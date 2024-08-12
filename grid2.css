@@ -1,0 +1,80 @@
+.container{
+    height: 400px;
+    max-width: 1140px;
+    width: 80%;
+    border: 1px solid goldenrod;
+    margin-inline: auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 1.1fr 2fr 1fr  ;
+    grid-template-rows:100px 100px 100px 100px;
+    gap: 2px;
+    
+
+}
+
+.item{
+    background-color: aqua;
+    color: #fff;
+    font-size: 45px;
+    margin: 3px;
+    text-align: center;
+    
+}
+
+p{  
+    text-align: center;
+    
+}
+
+.item:first-child{
+    background-color: rgb(161, 49, 101);
+    
+}
+
+.item:nth-child(2){
+    background-color: rgb(226, 43, 153);
+    grid-column: 2/4;
+    grid-row: 1/3;
+     
+}
+.item:nth-child(3){
+    background-color: rgb(222, 118, 83);
+    text-align: center;
+    grid-column: 4/5;
+    grid-row: 1/5;
+    
+}
+.item:nth-child(4){
+  background-color: goldenrod;
+}
+.item:nth-child(5){
+  background-color: rgb(55, 126, 55);
+}
+.item:nth-child(6){
+  background-color: rgb(39, 84, 118);
+}
+.item:nth-child(7){
+ background-color: greenyellow;
+ 
+}
+.item:nth-child(8){
+    background-color: rgb(42, 97, 42);
+    
+}
+.item:nth-child(9){
+ background-color: rgb(45, 175, 226);
+ grid-column: 3/4;
+ 
+}
+.item:nth-child(10){
+    background-color: rgb(128, 223, 128);
+
+}
+.item:nth-child(11){
+ background-color: rgb(97, 47, 106);
+ grid-column: 1/4;
+}
+.item:nth-child(12){
+    background-color: red;
+}
